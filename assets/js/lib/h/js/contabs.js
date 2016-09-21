@@ -1,4 +1,5 @@
-
+requirejs(["jquery"],
+function(){
 $(function () {
     //计算元素集合的总宽度
     function calSumWidth(elements) {
@@ -308,3 +309,4 @@ $(function () {
     });
 
 });
+})
