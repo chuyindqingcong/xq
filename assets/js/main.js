@@ -1,0 +1,10 @@
+require.config({
+	baseUrl:"../assets/js/",
+	paths:{
+		"jquery":["lib/h/js/jquery.min"],
+		"boot":["lib/h/js/bootstrap.min"],
+		"jq_MM":["lib/h/js/jquery.metisMenu"],
+		"jq_tab":["lib/h/js/contabs"],
+		"jq_slims":["lib/h/js/jquery.slimscroll.min"]
+	},
+})
